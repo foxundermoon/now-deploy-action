@@ -95,7 +95,7 @@ async function nowDeploy() {
     .exec(
       "npx",
       [
-        "now",
+        "vercel",
         ...nowArgs.split(/ +/),
         "-t",
         zeitToken,

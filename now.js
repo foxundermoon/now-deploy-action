@@ -4,7 +4,7 @@ function nowDeploy( context ) {
 
 
   const now = spawn('npx', [
-    'now',
+    'vercel',
     '-m',
     'githubCommitAuthorName=Minsu Lee',
     '-m',
